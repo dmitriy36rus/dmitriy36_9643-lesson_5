@@ -1,0 +1,256 @@
+@import "null.css";
+@import url("https://fonts.googleapis.com/css?family=Caveat:400,700&display=swap");
+@font-face{
+    font-family:"ZenOldMincho";
+    src:url("../fonts/ZenOldMincho-Regular.woff2") format("woff2"), url("../fonts/ZenOldMincho-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face{
+    font-family: "ZenOldMincho";
+    src:url("../fonts/ZenOldMincho-Bold.woff2") format("woff2"), url("../fonts/ZenOldMincho-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face{
+    font-family: "ZenOldMincho";
+    src:url("../fonts/ZenOldMincho-Black.woff2") format("woff2"), url("../fonts/ZenOldMincho-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face{
+    font-family: "Comforter";
+    src:url("../fonts/Comforter-Regular.woff2") format("woff2"), url("../fonts/Comforter-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+.wrapper{
+	overflow: hidden;
+	min-height: 100%;	
+}
+body{
+    font-family: "ZenOldMincho", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    background-color: rgba(153, 245, 252, 0.856);
+    
+}
+.header{
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+h1{
+    font-family: "caveat";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    color: red;
+    text-align: center;
+    text-shadow: 2px 2px 8px yellow;
+    padding: 10px 30px;
+}
+h2{
+    font-family: "caveat";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    color: green;
+    text-align: center;
+    margin: 0px 0px 30px 0px;
+    padding-bottom: 30px;
+}
+h3{
+    font-family: "caveat";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    color: rgb(204, 201, 32);
+    text-align: center;
+    margin: 20px 30px;
+}
+h4{
+    font-family: "caveat";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    color: rgb(212, 19, 230);
+    text-align: center;
+    margin: 40px 50px;
+}
+.object{
+    margin: 15px 40px;
+    width: 900px;
+}
+.text{
+    padding: 10px 50px;
+}
+.navmenu{
+    font-family: "comforter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(255, 136, 0);
+    text-align: left;
+    margin:0px 40px;
+}
+.osn li{
+    padding: 5px 10px;
+}
+.vl{
+    margin-left: 40px;
+}
+.vl li{
+    padding: 5px 10px 15px 0px;
+}
+.navmenu .text{
+    font-family: "comforter";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    color: rgb(255, 0, 200);
+    text-decoration: overline;
+}
+ul.point>li{
+    font-family: "caveat";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 10px 20px;
+    margin-left: 5%;
+}
+.image{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+#a7{
+    text-transform: capitalize;
+    color:rgb(19, 23, 248);
+    text-align: right;
+    font-weight: 900;
+    padding: 50px 20px 40px 30px;
+}
+li span{
+    font-family: "comforter";
+    font-weight: 700;
+    color: red;
+}
+span.blue{
+    color: blue;
+    font-family: "caveat";
+    text-transform: uppercase;
+}
+.next-text + p{
+    font-weight: 900;
+    color:rgb(255, 136, 0);
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.next-text{
+    color: blue;
+    line-height: 2;
+    margin: 15px 20px;
+}
+ol>li{
+    color: orangered;
+    font-family: "caveat";
+    font-weight: 700;
+}
+.bold{
+    font-weight: 700;
+    margin: 5%;
+}
+ol ~ p{
+    font-weight: 900;
+    line-height: 3;
+}
+.navmenu.upper{
+    color:rgb(36, 11, 180);
+    font-weight: 700;
+}
+.ololo>li{
+    color:orangered;
+    text-shadow: 4px 4px 2px black;
+    padding: 10px;
+
+}
+.ololo~p{
+    text-indent: 20px;
+    text-decoration: underline;
+}
+.footer{
+    width: 800px;
+    margin: 0px auto 15px;
+    padding-top: 20px;
+}
+.lesson{
+    font-family: "caveat";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    color: rgb(151, 179, 28);
+}
+.num{
+    margin-left: 20px;
+}
+.num li{
+    padding-top: 10px;
+}
+.sdvig{
+    padding: 20px;
+    margin: 10px;
+}
+.text1{
+    margin-top: 40px;
+    padding-left: 10px;
+}
+.text2{
+margin: 0px auto 20px;
+min-width: 500px;
+padding-top: 150px;
+}
+.ololo{
+    padding:20px;
+}
+.vis{
+    height: 100px;
+    overflow: scroll;
+}
+.format{
+    height: 200px;
+    overflow: scroll;
+}
+.inline{
+    margin:50px;
+}
+.inline>ul>li{
+    padding-top:15px;
+    display: inline;
+}
+.red{
+    color: red;
+}
+.block a{
+    display: block;
+    padding: 5px;
+}
+.mxw{
+    max-width: 1000px;
+}
+.mnw{
+    min-width: 300px;
+}
+.mnh{
+    min-height: 20px;
+    max-height: 80px;
+    width: 900px;
+
+}
